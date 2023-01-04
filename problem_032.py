@@ -16,4 +16,12 @@
 # problem to get a good feel for how to solve it.
 
 def sum_of_first_n_numbers(limit):
-    pass
+    total = 0
+    if limit < 0:
+        return None
+    for i in range(limit + 1):
+        total += i
+    return total
+
+print(sum_of_first_n_numbers(5))
+
