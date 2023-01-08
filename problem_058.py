@@ -22,3 +22,20 @@
 #
 # You may want to look up the ".strip()" method for the string.
 
+# def group_cities_by_state(list):
+#     output = {}
+#     value = []
+#     key = str(list)[-4:-2]
+#     for string in list:
+#         for char in string:
+#             if char == ',':
+#                 break
+#             value.append(char)
+#             output[key] = ["".join(value)]
+#     print(output)
+
+
+print(group_cities_by_state(["Springfield, MA", "Boston, MA"]))
+
+list_2 = ['hello']
+
