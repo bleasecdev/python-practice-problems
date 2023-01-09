@@ -21,3 +21,13 @@
 # You may want to look at the built-in Python functions
 # "ord" and "chr" for this problem
 
+def shift_letters(word):
+    output = ""
+    for char in word:
+        int_value = ord(char) + 1
+        new_char = chr(int_value)
+        output += new_char
+    return output
+    
+
+print(shift_letters("ABBA"))
