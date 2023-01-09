@@ -30,3 +30,21 @@
 
     # method get_title(self)
         # returns "Title: " + self.title
+
+class Book:
+    def __init__(self, author, title) -> None:
+        self.author = author
+        self.title = title
+
+    def get_author(self):
+        return "Author: " + self.author
+    
+    def get_title(self):
+        return "Title: " + self.title
+
+book1 = Book("Natalie Zina Walschots", "Hench")
+
+print(book1.get_author())
+print(book1.get_title())
+
+

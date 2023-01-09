@@ -28,3 +28,21 @@
 # at the last one you just wrote unless you really must.
 
 
+class Person:
+    def __init__(self, name, hate_foods, love_foods) -> None:
+        self.name = name
+        self.hate_foods = hate_foods
+        self.love_foods = love_foods
+
+    def taste(self, food_name):
+        if food_name in self.hate_foods:
+            return False
+        if food_name in self.love_foods:
+            return True
+        return None
+
+person = Person("Malik",["cottage cheese", "sauerkraut"],["pizza", "schnitzel"])
+
+print(person.taste("lasagna"))     
+print(person.taste("sauerkraut"))  
+print(person.taste("pizza"))
