@@ -8,7 +8,3 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def minimum_value(value1, value2):
-    return min(value1, value2)
-
-print(minimum_value(1,3))

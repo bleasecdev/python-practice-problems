@@ -14,10 +14,4 @@
 #   * x is less than or equal to rect_x + rect_width
 #   * y is less than or equal to rect_y + rect_height
 
-def is_inside_bounds(x, y, rect_x, rect_y, rect_width, rect_height):
-    if x >= rect_x and y >= rect_y and x <= rect_x + rect_width and y <= rect_y + rect_height:
-        return True
-    return False
 
-
-print(is_inside_bounds(1,2,1,1,5,6))

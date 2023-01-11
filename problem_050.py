@@ -12,14 +12,3 @@
 #    * input: [1, 2, 3]
 #      result: [1, 2], [3]
 
-def halve_the_list(li):
-    if len(li) % 2 == 0:
-        return li[:(int(len(li)/2))], li[int(len(li)/2):]
-    else:
-        return li[:(int(len(li))-1)] , li[int(len(li))-1:]
-    
-
-
-print(halve_the_list([1,2,3,4]))
-print(halve_the_list([1,2,3]))
-print(halve_the_list([1,2,3,4,5,6,7]))

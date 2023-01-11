@@ -12,16 +12,4 @@
 #     and less than 70
 #   * An "F" for any other average
 
-def calculate_grade(values):
-    if values >= 90:
-        return 'A'
-    if values >= 80 and values < 90:
-        return 'B'
-    if values >= 70 and values < 80:
-        return 'C'
-    if values >= 60 and values < 70:
-        return 'D'
-    else:
-        return 'F'
 
-print(calculate_grade(91))

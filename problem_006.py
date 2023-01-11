@@ -9,12 +9,3 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def can_skydive(age, has_consent_form):
-    if age >= 18 or has_consent_form != None:
-        return True
-    else:
-        return False
-
-
-
-print(can_skydive(22, 'yes'))

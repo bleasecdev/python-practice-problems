@@ -12,11 +12,3 @@
 #   * input:  {"one": 1, "two": 2, "three": 3}
 #     output: {1: "one", 2: "two", 3: "three"}
 
-def reverse_dictionary(dictionary):
-    output = {}
-   #loop through the dictionary 
-    for key, value in dictionary.items():
-        output.update({value : key})
-    return output
-
-print(reverse_dictionary({'a': 1, 'b': 2, 'c': 3}))

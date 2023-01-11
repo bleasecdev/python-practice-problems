@@ -6,9 +6,3 @@
 # return None
 #
 
-def calculate_sum(values):
-    if values == []:
-        return None
-    return sum(values)
-
-print(calculate_sum([]))

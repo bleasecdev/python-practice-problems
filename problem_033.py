@@ -15,13 +15,6 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def sum_of_first_even_numbers(n):
-    total = 0
-    if n < 0:
-        return None
-    for i in range(n):
-        return n * (n+1)
 
-print(sum_of_first_even_numbers(6))
 
 

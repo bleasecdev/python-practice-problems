@@ -12,10 +12,3 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def is_palindrome(word):
-    if ''.join(reversed(word)) == word:
-        return True
-    else:
-        return False
-
-print(is_palindrome('butt'))

@@ -17,10 +17,3 @@
 #
 # Remember that a dictionary has the ".get" method on it.
 
-def translate(key_list, dictionary):
-    output = []
-
-    for value in key_list:
-        output.append(dictionary[value])
-    return output
-print(translate(["name", "age"], {"name": "Noor", "age": 29}))

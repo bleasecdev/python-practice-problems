@@ -15,11 +15,4 @@
 #    * input:   "raise"
 #      RAISES:  ValueError
 
-def check_input(value):
-    if value == 'raise':
-        return ValueError("Invalid statement")
-    return True
 
-print(check_input('hello'))
-print(check_input('raise'))
-print(check_input('hello'))

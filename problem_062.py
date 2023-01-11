@@ -23,18 +23,5 @@
 #     * inputs:  10, "/", 12
 #       result:  0.8333333333333334
 
-def basic_calculator(left_num, number_op, right_num):
-    if number_op == '+':
-        return left_num + right_num
-    if number_op == '-':
-        return left_num - right_num
-    if number_op == '*':
-        return left_num - right_num
-    if number_op == '/':
-        return left_num / right_num
-    else:
-        return "Invalid Operator"
-
-print(basic_calculator(10, "z", 12))
 
 

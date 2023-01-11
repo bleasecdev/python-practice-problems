@@ -14,15 +14,3 @@
 #     * input:   [1, 3, 3, 20, 3, 2, 2]
 #       returns: [1, 3, 20, 2]
 
-def remove_duplicates(list):
-    output = []
-    for num in list:
-        if num in output:
-            continue
-        else:
-            output.append(num)
-    return output
-
-
-
-print(remove_duplicates([1, 3, 20, 2]))

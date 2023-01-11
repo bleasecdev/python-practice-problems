@@ -20,16 +20,4 @@
 
 # Write out your own pseudocode to help guide you.
 
-def add_csv_lines(csv_lines):
-    #set an empty list to manipulate and/or return later
-    output =[]
 
-    # loop through each arrray and convert every string into an integer
-    for value in csv_lines:
-        if len(value) > 1:
-            output.append(sum([int(x) for x in value.split(',')]))
-        else:
-            output.append(int(value))
-    return output
-
-print(add_csv_lines(['3', '1,9,1']))

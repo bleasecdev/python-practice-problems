@@ -22,14 +22,3 @@
 #     length: 5
 #     pad:    " "
 #     result: "   19"
-
-def pad_left(number, length, pad):
-    string = ""
-    count = length - len(str(number))
-    for i in range (count):
-        string += pad 
-    return string + str(number)
-
-
-
-print(pad_left(19, 5, " "))

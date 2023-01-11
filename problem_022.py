@@ -6,16 +6,4 @@
 #   * If it is not a workday, the list needs to contain
 #     "surfboard"
 
-def gear_for_day(is_workday, is_sunny):
-    list = []
-    if is_workday == True and is_sunny == False:
-        list.append('Umbrella')
-    if is_workday == True:
-        list.append('Laptop')
-    if is_workday == False:
-        list.append('surfboard')
-    return list
-
-print(gear_for_day(is_workday= False, is_sunny=True))
-
 

@@ -12,15 +12,3 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def max_of_three(value1, value2, value3):
-    max_value = min(value1, value2, value3)
-    if value1 >= max_value:
-        max_value = value1
-    if value2 >= max_value:
-        max_value = value2
-    if value3 >= max_value:
-        max_value = value3
-    return max_value
-
-
-print(max_of_three(1,2,3))

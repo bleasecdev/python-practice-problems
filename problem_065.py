@@ -17,12 +17,4 @@
 #
 # You may want to look at the built-in "abs" function
 
-def biggest_gap(list):
-    output = []
-    for index, num in enumerate(list):
-        if index < len(list) -1:
-            output.append(abs(num - list[index + 1]))   
-    return max(output)
-
-print(biggest_gap([1, 3, 100, 103, 106]))
 

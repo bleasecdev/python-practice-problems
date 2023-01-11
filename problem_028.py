@@ -10,10 +10,3 @@
 #
 # If the list is empty, then return the empty string.
 
-def remove_duplicate_letters(s):
-    list = set(s)
-    output = ''.join(list)
-    return output
-
-
-print(remove_duplicate_letters('aabcdaad'))

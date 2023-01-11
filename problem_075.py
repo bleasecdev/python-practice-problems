@@ -23,27 +23,5 @@
 # at the last one you just wrote unless you really must.
 
 
-class BankAccount:
-    def __init__(self, opening_balance) -> None:
-        self.opening_balance = opening_balance
-        
 
-    def get_balance(self):
-        return self.opening_balance
-
-    def deposit(self, amount):
-        self.opening_balance += amount
-        return self.opening_balance
-
-    def withdraw(self, amount):
-        self.opening_balance -= amount
-        return self.opening_balance
-
-account = BankAccount(100)
-
-print(account.get_balance())  # prints 100
-account.withdraw(50)
-print(account.get_balance())  # prints 50
-account.deposit(120)
-print(account.get_balance())  # prints 170
 

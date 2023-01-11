@@ -13,13 +13,3 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-def sum_of_squares(values):
-    output = []
-    if values == []:
-        return None
-    for num in values:
-        output.append(num**2)
-    return sum(output)
-
-
-print(sum_of_squares([1,2,3]))
