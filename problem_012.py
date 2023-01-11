@@ -15,5 +15,13 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-
-
+def fizz_buzz(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return "fizzbuzz"
+    elif num % 3 == 0:
+        return "fizz"
+    elif num % 5 == 0:
+        return "buzz"
+print(fizz_buzz(15))
+print(fizz_buzz(5))
+print(fizz_buzz(3))

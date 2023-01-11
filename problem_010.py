@@ -10,3 +10,10 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+def is_divisible_by_3(num):
+    if num % 3 == 0:
+        return "fizz"
+    return False
+
+print(is_divisible_by_3(3))
+print(is_divisible_by_3(5))

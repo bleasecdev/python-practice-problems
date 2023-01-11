@@ -12,3 +12,9 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+def is_palindrome(str):
+    if str == str[::-1]:
+        return True
+    return False
+
+print(is_palindrome('racecbr'))

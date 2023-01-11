@@ -9,3 +9,9 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+def can_skydive(age, consent):
+    if age >= 18 or consent == True:
+        return "Eligible to skydive"
+    return "Not eligible to skydive"
+
+print(can_skydive(18, None))
