@@ -7,3 +7,15 @@
 #
 # Pseudocode is available for you
 
+from statistics import mean
+
+
+def calculate_average(numbers):
+    if numbers == []:
+        return None
+    else:
+        return mean(numbers)
+
+
+print(calculate_average([1, 2, 3, 4]))
+print(calculate_average([]))

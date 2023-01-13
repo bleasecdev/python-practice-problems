@@ -13,3 +13,18 @@
 #   * An "F" for any other average
 
 
+def calculate_grade(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80 and grade < 90:
+        return "B"
+    elif grade >= 70 and grade < 80:
+        return "C"
+    elif grade >= 60 and grade < 70:
+        return "D"
+    return "F"
+
+print(calculate_grade(85))
+print(calculate_grade(55))
+print(calculate_grade(72))
+print(calculate_grade(95))

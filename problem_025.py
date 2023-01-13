@@ -6,3 +6,11 @@
 # return None
 #
 
+
+def calculate_sum(numbers):
+    if numbers == []:
+        return None
+    return sum(numbers)
+
+
+print(calculate_sum([1, 2, 3, 4]))
