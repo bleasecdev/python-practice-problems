@@ -4,3 +4,10 @@
 
 
 
+def is_inside_bounds(x, y):
+    if x in range(0, 11) and y in range(0, 11):
+        return True
+    return False
+
+print(is_inside_bounds(2,2))
+print(is_inside_bounds(10,10))
