@@ -17,4 +17,9 @@
 
 
 
+def sum_of_first_even_numbers(num):
+    if num < 0:
+        return None
+    return num * (num + 1)
 
+print(sum_of_first_even_numbers(5))

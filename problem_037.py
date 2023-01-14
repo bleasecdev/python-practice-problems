@@ -22,3 +22,14 @@
 #     length: 5
 #     pad:    " "
 #     result: "   19"
+
+def pad_left(num, num_char, pad_char):
+    output = ""
+    i = 0
+    while i < num_char - len(str(num)):
+        output += pad_char
+        i += 1
+    return output + str(num)
+
+print(pad_left(10, 5, '0'))
+    

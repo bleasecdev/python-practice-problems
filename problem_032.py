@@ -16,4 +16,16 @@
 # problem to get a good feel for how to solve it.
 
 
+def sum_offirst_n_numbers(num):
+    output = []
+    i = 0
+    if num < 0:
+        return None
+    while i <= num:
+        output.append(i)
+        i += 1
+    print(output)
+    return sum(output)
+
+print(sum_offirst_n_numbers(5))
 

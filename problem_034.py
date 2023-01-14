@@ -21,3 +21,14 @@
 #      return value1, value2
 
 
+def count_letters_and_digits(s):
+    letter_count = 0
+    digit_count = 0
+    for char in s:
+        if char.isdigit():
+            digit_count += 1
+        elif char.isalpha():
+            letter_count += 1
+    return letter_count, digit_count
+
+print(count_letters_and_digits('1a'))
