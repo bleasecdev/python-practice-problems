@@ -12,3 +12,10 @@
 #
 # Look up the zip function to help you with this problem.
 
+
+def pairwise_add(list1, list2):
+    output = []
+    for val1, val2 in zip(list1, list2):
+        output.append(val1 + val2)
+    return output
+print(pairwise_add([1, 2, 3, 4], [4, 5, 6, 7]))

@@ -17,3 +17,14 @@
 #
 # Remember that a dictionary has the ".get" method on it.
 
+
+def translate(key_list, dictionary):
+    output = []
+
+    for value in key_list:
+        if value not in dictionary:
+            output.append(None)
+        else:
+            output.append(dictionary.get(value))
+    return output
+print(translate(["eye color", "age"], {"name": "Noor", "age": 29}))

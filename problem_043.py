@@ -19,3 +19,13 @@
 #
 # Look up the enumerate function to help you with this problem.
 
+def find_indexes(search_list, search_term):
+    output = []
+    index = -1  # set the index to -1 to indicate that the element is not found
+    for i, element in enumerate(search_list):
+        if element == search_term:
+            index = i
+            output.append(i)
+    return output
+
+print(find_indexes([1,2,3,4,5], 4))
