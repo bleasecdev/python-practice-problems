@@ -12,3 +12,9 @@
 #    * input: [1, 2, 3]
 #      result: [1, 2], [3]
 
+def halve_the_list(list):
+    if len(list) % 2 != 0:
+        return list[:-1], [list[-1]]
+    return list[:int(len(list)/2)], list[int(len(list)/2):]
+
+print(halve_the_list([1,2,3,4]))

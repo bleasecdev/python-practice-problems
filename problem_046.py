@@ -27,3 +27,14 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+def make_sentences(subjects, verbs, objects):
+    sentences = []
+    for subject in subjects:
+        for verb in verbs:
+            for obj in objects:
+                sentence = subject + " " + verb + " " + obj
+                sentences.append(sentence)
+    return sentences
+
+print(make_sentences(["I", "You"],["play"],["Portal", "Sable"]))
+
