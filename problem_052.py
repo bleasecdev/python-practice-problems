@@ -14,3 +14,16 @@
 # package.
 #
 # https://docs.python.org/3/library/random.html
+import random
+
+def generate_lottery_numbers():
+    output = set()
+    i = 0
+    while len(output) < 6:
+        output.add(random.randint(1,40))
+    return list(output)
+
+print(generate_lottery_numbers())
+
+
+

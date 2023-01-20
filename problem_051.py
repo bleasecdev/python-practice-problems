@@ -6,4 +6,10 @@
 #             otherwise, returns numerator / denominator
 #
 # Don't for get to import math!
+import math
+def safe_divide(num, den):
+    if den == 0:
+        return math.inf
+    return num/den
 
+print(safe_divide(1,0))

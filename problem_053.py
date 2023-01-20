@@ -15,3 +15,12 @@
 #    * input:   "basia_farid+test@yahoo.com"
 #      returns: "basia_farid+test"
 
+def username_from_email(email):
+    output = ""
+    for char in email:
+        if char == "@":
+            break
+        output += char
+    return output
+
+print(username_from_email("basia.farid@yahoo.com"))
