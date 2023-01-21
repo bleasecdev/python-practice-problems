@@ -25,3 +25,17 @@
 
 
 
+def basic_calculator(left_num, op,right_num):
+    operators = ['+','-','*','/']
+    if op not in operators:
+        ValueError
+    if op == '+':
+        return left_num + right_num
+    if op == '-':
+        return left_num + right_num
+    if op == '*':
+        return left_num * right_num
+    if op == '/':
+        return left_num / right_num
+
+print(basic_calculator(10, '*', 10))
