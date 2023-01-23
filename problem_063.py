@@ -21,3 +21,14 @@
 # You may want to look at the built-in Python functions
 # "ord" and "chr" for this problem
 
+alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l',
+'m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M',
+'N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+def shift_letters(string):
+    output = []
+    for char in string:
+        output.append(alphabet[int(alphabet.index(char)) + 1])
+    return "".join(output)
+
+print(shift_letters('Kala'))

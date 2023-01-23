@@ -18,3 +18,8 @@
 # You may want to look at the built-in "abs" function
 
 
+def biggest_gap(list):
+
+
+
+print(biggest_gap([1,3,5,7]))
