@@ -32,5 +32,12 @@
         # returns "Title: " + self.title
 
 
+class Book:
+    def __init__(self, author, title):
+        self.author = f"Author: {author}"
+        self.title = f"Title: {title}"
 
+book = Book("Natalie Zina Walschots", "Hench")
 
+print(book.author)
+print(book.title)
